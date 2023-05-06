@@ -25,7 +25,7 @@ export default function Artisan() {
     <List
       isLoading={isLoading}
       onSearchTextChange={setSearch}
-      navigationTitle="Search WebKit Docs"
+      navigationTitle="Search WebKit Developer Documentation"
       isShowingDetail
       searchBarPlaceholder="Search documents..."
     >
@@ -36,7 +36,7 @@ export default function Artisan() {
           key={doc.title + doc.location}
           icon={{
             source: Icon.Paragraph,
-            tintColor: { light: "#00253d", dark: "#1a92ed" },
+            tintColor: { light: "#00253d", dark: "#ffffff" },
           }}
           detail={<DetailsView doc={doc} />}
           actions={

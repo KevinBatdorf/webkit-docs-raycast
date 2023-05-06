@@ -6,6 +6,8 @@
   "icon": "command-icon.png",
   "author": "KevinBatdorf",
   "categories": [
+    "Productivity",
+    "Developer Tools",
     "Documentation"
   ],
   "license": "MIT",
